@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(211, 231, 239);
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+   position: fixed;
+    display: flex;
+    align-items: center;
+  
+}
+#logo{
+    margin-left: 4%;
+    margin-right: 5%;
+}
+#search{
+    height: 55%;
+    width: 40%;
+    background-color:rgb(209, 225, 235);
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+#search i{
+    margin-left: 5%;
+    font-size: large;
+}
+#search p{
+    margin-left: 5%;
+    font-size: large;
+    font-weight: lighter;
+}
+.texts{
+    margin-left: 70px;
+    font-weight: 300px;
+    font-size: large;
+}
+#Login{
+    display: flex;
+}
+#Cart{
+    display: flex;
+}
+#Become {
+    display: flex;
+}
+#fakeheader{
+    height: 10%;
+    width: 100%;
+}
+.page1{
+    height: 110%;
+    width: 100%;
+}
+.strip{
+    height: 15%;
+    width: 98%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+#su{
+    margin-left: 62px;
+    font-weight: bold;
+}
+#su img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.content{
+    height: 31%;
+    width: 98%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+ }
+ .content img{
+    object-fit: cover;
+ }
+
+.content2{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+h5{
+    font-size: x-large;
+   margin: 20px;
+   padding: 10px;
+}
+.boxes{
+    display: flex;
+    margin-left: 5px;
+}
+#box1{
+    height: 38vh;
+    width: 16%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 5px;
+    text-align: center;
+    
+}
+#box1 img{
+    width: 220px;
+}
+#box2{
+    height: 38vh;
+    width: 16%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 5px;
+    text-align: center;
+}
+#box2 img{
+    width: 220px;
+}
+#box3{
+    height: 38vh;
+    width: 16%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 5px;
+    text-align: center;
+}
+#box3 img{
+    width: 220px;
+}
+#box4{
+    height: 38vh;
+    width: 16%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 5px;
+    text-align: center;
+}
+#box4 img{
+    width: 220px;
+}
+#box5{
+    height: 38vh;
+    width: 16%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 5px;
+    text-align: center;
+}
+#box5 img{
+    width: 260px;
+}
+#box6{
+    height: 38vh;
+    width: 16%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 5px;
+    text-align: center;
+}
+#box6 img{
+    width: 220px;
+}
+.page2{
+    height: 90%;
+    width: 105%;
+    background-color: white;
+}
+.row1{
+    height: 48%;
+    width: 105%;
+    margin-bottom: 13px;
+    display: flex;
+}
+#btns1{
+    height: 90%;
+    width: 31.2%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 8px;
+}
+#btns1 img{
+    object-fit: fill;
+}
+#btns2{
+    height: 90%;
+    width: 31.2%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 8px;
+}
+#btns3{
+    height: 90%;
+    width: 31.2%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 8px;
+}
+.row2{
+    height: 48%;
+    width: 105%;
+   display: flex;
+}
+#btn1{
+    height: 90%;
+    width: 31.2%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 8px;
+}
+#btn2{
+    height: 90%;
+    width: 31.2%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 8px;
+}
+#btn3{
+    height: 90%;
+    width: 31.2%;
+    border: 1px solid rgba(0, 0, 0, 0.697);
+    margin-left: 8px;
+}
+

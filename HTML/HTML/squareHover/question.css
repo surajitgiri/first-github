@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+#shape{
+margin-left: 10px;
+ margin-top:10px ; 
+height: 200px;
+    width: 200px;
+   border: 1px solid black;
+   font-size: xx-large;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.square:hover{
+    background-color: rgb(238, 238, 66);
+}
+.circle:hover{
+   background-color: cyan;
+}
+.circle{
+     border-radius: 50%;
+}
+.rotate:hover{
+    background-color: rgb(236, 51, 9);
+}
+.rotate{
+     rotate: 45deg;
+     margin-top: 50px;
+     height: 100px;
+     width: 150px;
+     translate: 10px;
+   }
+h5{
+    rotate: -45deg;
+}

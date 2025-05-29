@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+   padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    }
+body{
+    background-color: bisque;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#box2{
+    margin-top: 20px;
+    rotate: 45deg;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border-style: solid black,1px;
+    border-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+#box2 h6{
+    rotate: -45deg;
+}
+#box1{
+    border: solid black,1px;
+    color: rgb(0, 47, 255);
+}
+#box2{
+    border: solid black,1px;
+   
+    color: rgb(255, 0, 8);
+}
+#box3{
+    border: solid black,1px;
+    color: rgb(51, 0, 255);
+    border-radius: 50%;
+}
+#box2 h6:hover{
+    color: aqua;
+}
+#box1:hover{
+    background-color: #0eb822;
+}
+#box3:hover{
+    background-color: #70cdec;
+}

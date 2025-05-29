@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  height: 34vh;
+  width: 58vh;
+  background:linear-gradient(rgb(250, 250, 5),orange);
+  border-radius: 15px;
+}
+.upper{
+  height: 12vh;
+  width: 58vh;
+  display: flex;
+}
+.upper h3{
+  margin-top: 6%;
+  margin-left: 5%;
+  color: white;
+}
+#banklogo img{
+  height: 55px;
+  margin-top: 2vh;
+ 
+  margin-left:2vh;
+}
+#azadi img{
+  height: 65px;
+  margin-top: 2vh;
+  margin-left: 6vh;
+}
+#pmlogo img{
+  height: 80px;
+  margin-top: 2vh;
+ 
+  margin-left:2vh;
+}
+
+.lower{
+  height: 22vh;
+  width: 58vh;
+
+}
+
+#smart img{
+  height: 50px;
+  margin-left: 4vh;
+  margin-top: -1vh;
+}
+h2{
+  font-family: serif;
+  margin-left: 4vh;
+  letter-spacing: 5px;
+  word-spacing: 11px;
+}
+.sinary{
+  display: flex;
+  margin-top: 2vh;
+  margin-left: 3vh;
+}
+.sinary p{
+  font-size: xx-small;
+  margin-left: 1vh;
+  margin-top: 1vh;
+}
+.sinary h3{
+  margin-left: 2vh;
+}
+#rupay img{
+  height: 21px;
+  margin-left: 46vh;
+  margin-top: .2vh;
+}
+h5{
+  margin-left: 50vh;
+  margin-top: .2vh;
+}
